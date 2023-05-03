@@ -1,0 +1,12 @@
+/*box-sizing: border-box er en default indstilling for CSS. 
+Man behøver ikke forstå det, men det skal være der.
+Stjernen angiver at stylingen gælder for ALLE HTML elementer, uden undtagelse
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* body {
+    background-color: blue;
+} */
