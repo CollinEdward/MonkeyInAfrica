@@ -1,12 +1,93 @@
-/*box-sizing: border-box er en default indstilling for CSS. 
-Man behøver ikke forstå det, men det skal være der.
-Stjernen angiver at stylingen gælder for ALLE HTML elementer, uden undtagelse
-*/
+/* Global Styles */
 
-* {
-    box-sizing: border-box;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-/* body {
-    background-color: blue;
-} */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+main {
+    padding: 20px;
+}
+
+section h1 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+section h2 {
+    font-size: 1.5em;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+section ul {
+    margin-left: 1.5em;
+}
+
+/* Specific Styles */
+
+#introduction {
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+#species {
+    background-color: #fff;
+    padding: 40px;
+}
+
+#species h2 {
+    margin-top: 1.5em;
+}
+
+#importance {
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+#challenges {
+    background-color: #fff;
+    padding: 40px;
+}
+
+#challenges ul {
+    list-style-type: disc;
+}
